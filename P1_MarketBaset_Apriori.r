@@ -8,7 +8,7 @@ library(dplyr)
 setwd("C:/Users/cchousal/Documents/Data Science/FINAL PROJECT WORK/PROJECT-1-8211-MARKET-BASKET-ANALYSIS-R")
 
 basket<-read.transactions(
-  file = 'market_basket.csv',
+  file = 'P1_market_basket.csv',
   sep=",",
   header = TRUE,
   quote="",
